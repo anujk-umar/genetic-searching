@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=RS,Number=1,Type=String,Description="dbSNP rsID">
+##INFO=<ID=STAR,Number=1,Type=String,Description="Star allele designation">
+##INFO=<ID=FUNCTION,Number=1,Type=String,Description="Functional effect on enzyme">
+##INFO=<ID=CNV,Number=1,Type=String,Description="Copy Number Variation status">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	PATIENT_NORMAL_001
+chr1	97544241	rs3918290	C	C	99	PASS	GENE=DPYD;RS=rs3918290;STAR=*1;FUNCTION=normal	GT:DP:GQ	0/0:60:99
+chr10	94781859	rs1057910	A	A	99	PASS	GENE=CYP2C9;RS=rs1057910;STAR=*1;FUNCTION=normal	GT:DP:GQ	0/0:55:99
+chr16	31102334	rs9923231	C	C	99	PASS	GENE=VKORC1;RS=rs9923231;STAR=wt;FUNCTION=normal	GT:DP:GQ	0/0:62:99
+chr12	21178615	rs4149056	T	T	99	PASS	GENE=SLCO1B1;RS=rs4149056;STAR=*1;FUNCTION=normal	GT:DP:GQ	0/0:58:99
+chr22	42128945	rs3892097	C	C	99	PASS	GENE=CYP2D6;RS=rs3892097;STAR=*1;FUNCTION=normal;CNV=DIPLOID_CN2	GT:DP:GQ	0/0:50:99

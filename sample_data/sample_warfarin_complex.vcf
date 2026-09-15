@@ -1,0 +1,16 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=RS,Number=1,Type=String,Description="dbSNP rsID">
+##INFO=<ID=STAR,Number=1,Type=String,Description="Star allele designation">
+##INFO=<ID=FUNCTION,Number=1,Type=String,Description="Functional effect on enzyme">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	PATIENT_WARFARIN_002
+chr10	94781859	rs1057910	A	C	99	PASS	GENE=CYP2C9;RS=rs1057910;STAR=*3;FUNCTION=no_function	GT:DP:GQ	0|1:55:99
+chr16	31102334	rs9923231	C	T	99	PASS	GENE=VKORC1;RS=rs9923231;STAR=-1639A;FUNCTION=high_sensitivity	GT:DP:GQ	1|1:60:99
+chr19	15990431	rs2108622	C	T	99	PASS	GENE=CYP4F2;RS=rs2108622;STAR=*3;FUNCTION=decreased_function	GT:DP:GQ	0|1:44:99
+chr1	97544241	rs3918290	C	C	99	PASS	GENE=DPYD;RS=rs3918290;STAR=*1;FUNCTION=normal	GT:DP:GQ	0/0:50:99
+chr12	21178615	rs4149056	T	C	99	PASS	GENE=SLCO1B1;RS=rs4149056;STAR=*5;FUNCTION=decreased_function	GT:DP:GQ	0|1:42:99
+chr22	42128945	rs3892097	C	T	99	PASS	GENE=CYP2D6;RS=rs3892097;STAR=*4;FUNCTION=no_function	GT:DP:GQ	0/1:38:99
